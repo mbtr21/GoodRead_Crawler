@@ -45,7 +45,7 @@ python manage.py migrate
 
 Open a new terminal window and run the following command:
 ```bash
-celery -A goodreads_data_crawler worker --loglevel=info
+celery -A goodreads worker --loglevel=info
 ```
 6.**Start the Django Project**
 ```bash
